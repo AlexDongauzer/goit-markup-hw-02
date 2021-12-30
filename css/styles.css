@@ -4,7 +4,8 @@
   --accent-color: #2196f3;
 }
 body {
-  background-color: #e5e5e5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #212121;
 }
 .list {
@@ -32,18 +33,20 @@ body {
 }
 /* hero */
 .hero {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 .hero-title {
   color: #ffffff;
 }
+.button {
+}
 /* Section */
 .section-title {
-  color: #212121;
+  color: ;
 }
 /* features */
 .features .title {
-  color: #212121;
+  color: ;
 }
 /* what are we doing */
 
@@ -56,10 +59,3 @@ body {
 .logo-part {
   color: #000000;
 }
-
-background-color: #2f303a;
-
-color: #f5f4fa;
-
-background: #ffffff;
-background: #757575;
