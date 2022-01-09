@@ -16,6 +16,9 @@ body {
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-part {
   color: #000000;
@@ -23,6 +26,10 @@ body {
 }
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -33,6 +40,10 @@ body {
 }
 .contacts a {
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -44,11 +55,24 @@ body {
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button-primary {
   color: var(--bcg-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button-secondary {
   color: #212121;
@@ -56,11 +80,13 @@ body {
 }
 /* Section */
 .section-title {
-  color: ;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 /* features */
 .features .title {
-  color: ;
 }
 /* what are we doing */
 
