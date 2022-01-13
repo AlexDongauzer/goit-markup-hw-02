@@ -18,7 +18,7 @@ body {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -71,7 +71,8 @@ body {
   color: var(--bcg-color);
   background-color: var(--accent-color);
   cursor: pointer;
-  font-weight: bold;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -81,11 +82,23 @@ body {
 }
 .button-secondary {
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
   cursor: pointer;
 }
 /* features */
-.title {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 }
 .features-title {
   font-size: 14px;
@@ -149,4 +162,27 @@ body {
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.address-link-map:hover, .address-link-map:focus{
+  color: var(--accent-color);
+}
+.address-link:hover, .address-link:focus{
+  color: var(--accent-color);
+}
+/* styles for portfolio page */
+.portfolio-btn .btn{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.portfolio-title{
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text{
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
